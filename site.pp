@@ -11,8 +11,8 @@ case $::osfamily {
 $default_packages = ['vim', 'mosh', 'tmux']
 
 node default {
-  package {$default_packages:
-    ensure => present
-  }
+#  package {$default_packages:
+#    ensure => present
+#  }
   notify {'puppet ran!': }
 }
