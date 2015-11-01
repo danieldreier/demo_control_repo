@@ -8,6 +8,5 @@ mod "puppetlabs/stdlib"
 # zack/r10k deps
 mod "zack/r10k"
 mod "puppetlabs/gcc"
-mod "mhuffnagle/make"
 mod "puppetlabs/vcsrepo"
 mod "puppetlabs/git"
