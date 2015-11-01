@@ -6,3 +6,4 @@ mod "puppetlabs/ntp"
 mod "puppetlabs/stdlib"
 ## ping
 ## ping
+## ping
