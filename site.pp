@@ -8,7 +8,6 @@ case $::osfamily {
   }
 }
 
-#hiera_include('classes')
 $default_packages = ['vim', 'mosh', 'tmux']
 
 node default {
