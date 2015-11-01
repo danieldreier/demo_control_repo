@@ -14,4 +14,5 @@ node default {
   package {$default_packages:
     ensure => present
   }
+  notify {'puppt ran!': }
 }
