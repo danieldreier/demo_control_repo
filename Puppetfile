@@ -4,3 +4,5 @@ mod "puppetlabs/concat"
 mod "puppetlabs/firewall"
 mod "puppetlabs/ntp"
 mod "puppetlabs/stdlib"
+## ping
+## ping
