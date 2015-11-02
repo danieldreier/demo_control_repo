@@ -1,4 +1,4 @@
-$default_packages = ['vim', 'mosh', 'tmux', 'weechat']
+$default_packages = ['vim', 'mosh', 'tmux', 'weechat', 'zsh']
 
 node default {
   package {$default_packages:
