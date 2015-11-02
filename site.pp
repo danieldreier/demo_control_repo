@@ -1,13 +1,14 @@
-$default_packages = ['vim', 'mosh', 'tmux']
+$default_packages = ['vim', 'mosh', 'tmux', 'weechat']
 
 node default {
   package {$default_packages:
     ensure => present
   }
   user { 'danieldreier':
-    ensure           => 'present',
-    comment          => 'Daniel Dreier',
-    shell            => '/bin/zsh',
+    ensure     => 'present',
+    comment    => 'Daniel Dreier',
+    shell      => '/bin/zsh',
+    managehome => true,
   }
   ssh_authorized_key { 'danieldreier':
     user => 'danieldreier',
